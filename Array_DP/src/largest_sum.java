@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- * Finds and tests the greatest non-adjacent sum from an array method.
+ * Finds and tests the greatest non-adjacent sum from an array.
  * @author Niilo Vuokila
  */
 public class largest_sum {
