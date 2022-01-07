@@ -17,7 +17,7 @@ public class TwoSum {
      *
      * @param nums   The array to be used for the problem
      * @param target The target that 2 numbers need to add to
-     * @return      The indexes of two numbers that . Returns null if
+     * @return       The indexes of two numbers that add to target. Returns null if such numbers are not found.
      */
     public static int[] twoSum(int[] nums, int target) {
         Integer match = null;
