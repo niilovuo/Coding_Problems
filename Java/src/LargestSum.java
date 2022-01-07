@@ -1,9 +1,11 @@
 import java.util.*;
+import static utilities.custom_utilities.printArray;
+
 /**
  * Finds and tests the greatest non-adjacent sum from an array.
  * @author Niilo Vuokila
  */
-public class largest_sum {
+public class LargestSum {
     /**
      * Finds the largest sum of an array in O(n) time, based on the following problem description:
      *
@@ -28,15 +30,6 @@ public class largest_sum {
         }
         // Return the largest value, which is at the end of dp_array.
         return dp_array[dp_array.length - 1];
-    }
-
-    private static void printArray(int[] arr){
-        System.out.print("[");
-        for(int i = 0; i < arr.length; i++){
-            if(i != arr.length - 1) System.out.print(arr[i] + ", ");
-            else System.out.print(arr[i]);
-        }
-        System.out.print("]\n");
     }
 
     public static void main(String[] args){
